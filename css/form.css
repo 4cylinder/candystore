@@ -1,0 +1,8 @@
+input {
+	display: inline;
+}
+form label.error{
+	color:red;
+	margin-left:10px;
+	display:inline;
+}
