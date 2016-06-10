@@ -29,7 +29,7 @@
 class CI_Hooks {
 
 	/**
-	 * Determines wether hooks are enabled
+	 * Determines whether hooks are enabled
 	 *
 	 * @var bool
 	 */
@@ -41,7 +41,7 @@ class CI_Hooks {
 	 */
 	var $hooks			= array();
 	/**
-	 * Determines wether hook is in progress, used to prevent infinte loops
+	 * Determines whether hook is in progress, used to prevent infinte loops
 	 *
 	 * @var bool
 	 */

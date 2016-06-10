@@ -151,7 +151,7 @@ class CI_Security {
 		}
 
 		// We kill this since we're done and we don't want to
-		// polute the _POST array
+		// pollute the _POST array
 		unset($_POST[$this->_csrf_token_name]);
 
 		// Nothing should last forever
