@@ -57,7 +57,7 @@ class CI_Output {
 	 */
 	protected $mime_types		= array();
 	/**
-	 * Determines wether profiler is enabled
+	 * Determines whether profiler is enabled
 	 *
 	 * @var book
 	 * @access 	protected

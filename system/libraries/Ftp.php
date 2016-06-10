@@ -425,7 +425,7 @@ class CI_FTP {
 		{
 			foreach ($list as $item)
 			{
-				// If we can't delete the item it's probaly a folder so
+				// If we can't delete the item it's probably a folder so
 				// we'll recursively call delete_dir()
 				if ( ! @ftp_delete($this->conn_id, $item))
 				{
